@@ -8,12 +8,32 @@
 # nomes[3] = "Maria"
 # print(nomes)
 
-nomes = []
-while True:
-    nome = input("Digite -1 para sair ou cadastre um nome: ")
-    if nome == "-1":
-        break
+# nomes = []
+# while True:
+#     nome = input("Digite -1 para sair ou cadastre um nome: ")
+#     if nome == "-1":
+#         break
+#
+#     nomes.append(nome)
+#
+# print(nomes)
 
-    nomes.append(nome)
+# Método para inserir elementos em qualquer posição da lista
+# nomes = ['Maiza', 'Thiago', 'Theodoro', 'Maria Izadora']
+# nomes.insert(2, 'Pedro')
+# print(nomes)
 
-print(nomes)
+# Método para remove o último valor da lista caso não seja informado o index a ser removido
+# nomes = ['Maiza', 'Thiago', 'Theodoro', 'Maria Izadora']
+# nomes.pop(1)
+# nomes.pop()
+# print(nomes)
+
+# Método remove da lista o elemento informado. Remove apenas o primeiro elemento encontrado
+# nomes = ['Maiza', 'Thiago', 'Thiago', 'Theodoro', 'Maria Izadora']
+# nomes.remove('Thiago')
+# print(nomes)
+
+# Como descobrir o indice de um determinado elemento da lista
+nomes = ['Maiza', 'Thiago', 'Thiago', 'Theodoro', 'Maria Izadora']
+print(nomes.index('Theodoro'))
