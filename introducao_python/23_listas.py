@@ -35,5 +35,13 @@
 # print(nomes)
 
 # Como descobrir o indice de um determinado elemento da lista
-nomes = ['Maiza', 'Thiago', 'Thiago', 'Theodoro', 'Maria Izadora']
-print(nomes.index('Theodoro'))
+# nomes = ['Maiza', 'Thiago', 'Thiago', 'Theodoro', 'Maria Izadora']
+# print(nomes.index('Theodoro'))
+
+# Ordenar listas
+# nomes = ['Thiago', 'Maiza', 'Theodoro', 'Maria Izadora']
+# nomes.sort()  # Altera a lista original
+# nomes.sort(reverse=True)  # Não altera a lista original
+# sorted(nomes)
+# nomes_ordenados = sorted(nomes, reverse=True)
+# print(nomes)
